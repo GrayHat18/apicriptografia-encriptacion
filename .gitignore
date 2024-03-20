@@ -73,4 +73,5 @@ buildNumber.properties
 # Otros archivos
 HELP.md
 **/src/main/resources/application.properties
+**/src/main/resources/application.yml
 
