@@ -8,8 +8,6 @@ import lombok.*;
  *
  * @author grayhat
  */
-@Getter
-@Setter
 @EqualsAndHashCode
 @ToString
 public class TypeEncryptionDto {
@@ -89,4 +87,27 @@ public class TypeEncryptionDto {
         }
     }
 
+    public int getIdTypeEncryption() {
+        return idTypeEncryption;
+    }
+
+    public String getDescriptorName() {
+        return descriptorName;
+    }
+
+    public String getDescriptor() {
+        return descriptor;
+    }
+
+    public Timestamp getCreatedAt() {
+        return createdAt;
+    }
+
+    public Timestamp getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public boolean isEnabled() {
+        return enabled;
+    }
 }

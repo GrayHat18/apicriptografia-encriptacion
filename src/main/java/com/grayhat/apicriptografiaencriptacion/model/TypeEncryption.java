@@ -15,8 +15,6 @@ import lombok.*;
  */
 @Entity
 @Table(name = "type_encryption")
-@Setter
-@Getter
 @EqualsAndHashCode
 public class TypeEncryption {
 
@@ -97,4 +95,27 @@ public class TypeEncryption {
         }
     }
 
+    public int getIdTypeEncryption() {
+        return idTypeEncryption;
+    }
+
+    public String getDescriptorName() {
+        return descriptorName;
+    }
+
+    public String getDescriptor() {
+        return descriptor;
+    }
+
+    public Timestamp getCreatedAt() {
+        return createdAt;
+    }
+
+    public Timestamp getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public boolean isEnabled() {
+        return enabled;
+    }
 }
